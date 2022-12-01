@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .clearfix::after{
@@ -12,6 +13,8 @@
 
 h1{
     text-align: center;
+    color: palevioletred;
+    margin: 30px;
  }
 
 .description{
@@ -35,7 +38,6 @@ h1{
  .photo{
     width: 90px;
     margin-right: 10px;;
-    background-color: black;
     float: left;
  }
 
@@ -46,6 +48,7 @@ h1{
  .user{
     vertical-align: middle;
     padding: 15px;
+    font-size: 15px;
  }
  
 h3{
@@ -56,5 +59,10 @@ h3{
 
  .name{
     color: white;
+ }
 
+ a{
+    color: lightskyblue;
+    font-size: 13px;
+    text-decoration: none;
  }
