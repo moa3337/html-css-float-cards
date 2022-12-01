@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    text-align: center;
+ }
+
+.description{
+    text-align: center;
+    color: black;
+}
+
+ .continer{
+    max-width: 1200px;
+    margin: 0 auto;  
+ }
+
+
+ .collumn{
+    width: calc(100% / 3 - 30px);
+    background-color: black;
+    float: left;
+    margin: 30px 15px;
+ }
+
+ .photo{
+    width: 90px;
+    margin-right: 10px;;
+    background-color: black;
+    float: left;
+ }
+
+ img{
+    width: 100%;
+ }
+
+ .user{
+    vertical-align: middle;
+    padding: 15px;
+ }
+ 
+h3{
+    color: white;
+    vertical-align: middle;
+}
+
+
+ .name{
+    color: white;
+
+ }
